@@ -5,19 +5,10 @@
 
 #include "main.h"
 
-const char *admins[] = {};
+const char *admins[] = {/* authorised users go here */};
 
 const char *adminCommands[] = {"$help", "$restart", "$die"/*, "$leave", "$join", "$ghost", "$nick"*/};
 const char *adminCommandsDesc[] = {"Displays commands", "Restart bot", "Shutdown bot"/*, "Leave <OPTIONAL CHANNEL>", "Join <CHANNEL>"*/};
-
-/*
-const char *userCommands[] = {"$link*", "$help"};
-const char *userCommandsDesc[] = {"Prints link", "Displays commands"};
-
-const char *links[] = {"https://youtube.com/", "http://null-byte.wonderhowto.com/"};
-const char *linkShort[] = {"yt", "nb"};
-const char *linkDesc[] = {"Displays YouTube link", "Displays Null-Byte link"};
-*/
 
 int checkAuthorised (char *s) {
     int i;
