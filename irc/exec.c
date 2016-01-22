@@ -5,7 +5,7 @@
 
 #include "main.h"
 
-const char *admins[] = {"dtmbot", "dontrustme", "csaw"};
+const char *admins[] = {};
 
 const char *adminCommands[] = {"$help", "$restart", "$die"/*, "$leave", "$join", "$ghost", "$nick"*/};
 const char *adminCommandsDesc[] = {"Displays commands", "Restart bot", "Shutdown bot"/*, "Leave <OPTIONAL CHANNEL>", "Join <CHANNEL>"*/};
